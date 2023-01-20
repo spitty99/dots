@@ -257,6 +257,7 @@
    '("z" . meow-pop-selection)
    '("'" . repeat)
    '("<escape>" . ignore)))
+(meow-setup)
 (meow-global-mode 1)
 
 ;; Org-mode
