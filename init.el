@@ -24,6 +24,9 @@
 		eshell-mode-hook))
   (add-hook mode (lambda () (display-line-numbers-mode 0))))
 
+;; Automatically enable line-wrapping in Org Mode
+(add-hook 'org-roam-mode 'auto-fill-mode)
+
 ;; Package repos
 (require 'package)
 
