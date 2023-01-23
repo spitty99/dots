@@ -11,9 +11,6 @@
 (set-fringe-mode 10)     ;; Add a margin
 (menu-bar-mode -1)       ;; Disables menu bar
 
-;; Visual bell instead of my computer YELLING AT ME
-(setq visible-bell t)
-
 ;; LINE AND COLUMN NUMBERS
 (column-number-mode)
 (global-display-line-numbers-mode)
