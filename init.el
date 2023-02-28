@@ -169,7 +169,7 @@
 ;(spitty/leader-keys
 ;  "z" '(hydra-text-scale/body :which-key "scale text"))
 
-;; Meow
+#|| ;; Meow
 (use-package meow)
 (require 'meow)
 (defun meow-setup ()
@@ -259,6 +259,7 @@
    '("<escape>" . ignore)))
 (meow-setup)
 (meow-global-mode 1)
+||#
 
 ;; Org-mode
 (use-package org)
